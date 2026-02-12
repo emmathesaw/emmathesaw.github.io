@@ -150,6 +150,16 @@ p strong {
     flex: 1 1 100%;
 }
 
+.project-audio {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #ffffff;
+}
+
 .project-sticker {
     position: absolute;
     top: -30px;
